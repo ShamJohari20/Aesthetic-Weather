@@ -1,0 +1,124 @@
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-image:url("/bg_image.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#hed{
+    text-align: center;
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    text-shadow: 0 0 5px blue;
+}
+
+#child1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1px;
+}
+#ibox{
+    height: 30px;
+    width: 40%;
+    outline:black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.749);
+    color: black;
+    outline: none;
+    border: solid rgba(41, 162, 206, 0.667);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: larger;
+
+}
+
+#s-btn{
+    height: 35px;
+    width:max-content ;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(23, 26, 26, 0.585);
+    text-shadow: 0 0 5px blue;
+    border: solid rgba(41, 159, 206, 0.667);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size:large;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.child2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    text-shadow: 0 0 5px blue;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.child3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    text-shadow: 0 0 5px blue;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.child4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    row-gap: 10px;
+    column-gap: 10px;
+    /* background-color: rgba(255, 255, 255, 0.141); */
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    text-shadow: 0 0 5px blue;
+    padding: 15px;
+    border-radius: 10px;
+
+
+}
+
+#hour{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3px;
+    column-gap: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.141);
+    border-style: solid;
+
+}
