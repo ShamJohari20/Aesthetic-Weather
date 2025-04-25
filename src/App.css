@@ -120,12 +120,43 @@
     padding: 15px;
     border-style: solid;
     border-radius: 10px;
-    width: 30%;
-
-
+    /* width: 350px; */
 }
 
 #hour{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3px;
+    column-gap: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.141);
+    border-style: solid;
+
+}
+
+#child5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    text-shadow: 0 0 5px blue;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+.day{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
