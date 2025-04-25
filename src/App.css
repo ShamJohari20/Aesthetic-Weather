@@ -16,7 +16,7 @@
 
 #main{
     height: 95%;
-    width: 60%;
+    width: 99%;
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
