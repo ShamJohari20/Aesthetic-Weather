@@ -1,4 +1,5 @@
-#parent{
+
+#main{
     height: 100vh;
     width: 100vw;
     background-image:url("/bg_image.jpg");
@@ -11,27 +12,8 @@
     justify-content: center;
     row-gap: 10px;
     column-gap: 10px;
-
-}
-
-#main{
-    height: 90%;
-    width: 90%;
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 10px;
-    column-gap: 10px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.141);
-    padding: 10px;
-
-
-
+    /* padding: 5px; */
+    
 }
 
 #hed{
@@ -70,7 +52,7 @@
 }
 
 #s-btn{
-    height: 30px;
+    height: 33px;
     width:max-content ;
     padding-left: 10px;
     padding-right: 10px;
@@ -97,7 +79,7 @@
     text-shadow: 0 0 5px blue;
     padding: 15px;
     border-radius: 10px;
-    border-style: solid;
+    /* border-style: solid; */
     border-color: white;
     border-radius: 10px;
 
@@ -116,7 +98,7 @@
     text-shadow: 0 0 5px blue;
     padding: 15px;
     border-radius: 10px;
-    border-style: solid;
+    /* border-style: solid; */
     border-color: white;
     border-radius: 10px;
     
@@ -138,7 +120,7 @@
     padding: 15px;
     border-style: solid;
     border-radius: 10px;
-    width: 40%;
+    width: 30%;
 
 
 }
@@ -148,13 +130,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: center;
     row-gap: 3px;
     column-gap: 3px;
     padding: 5px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.141);
-    border-style: dotted;
+    border-style: solid;
 
 }

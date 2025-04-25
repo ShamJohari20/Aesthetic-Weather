@@ -23,7 +23,7 @@ const App = () => {
 
     return (
         <>
-            <div id="parent">
+
                 <div id="main">
                     <h1 id="hed">The Weather Knows the Mood of Your City</h1>
                     <div id="child1">
@@ -79,13 +79,13 @@ const App = () => {
                         </div>
 
                         <div>
-                            
+
                         </div>
 
                     </>}
 
                 </div>
-            </div>
+
         </>
     )
 }
