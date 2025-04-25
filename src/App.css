@@ -1,4 +1,4 @@
-#main{
+#parent{
     height: 100vh;
     width: 100vw;
     background-image:url("/bg_image.jpg");
@@ -11,6 +11,26 @@
     justify-content: center;
     row-gap: 10px;
     column-gap: 10px;
+
+}
+
+#main{
+    height: 95%;
+    width: 60%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.141);
+
+
+
 }
 
 #hed{
@@ -18,6 +38,11 @@
     color: azure;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
     text-shadow: 0 0 5px blue;
+    background-color: rgba(255, 255, 255, 0.141);
+    padding: 10px;
+    /* border-style: solid;
+    border-color: white; */
+    border-radius: 10px;
 }
 
 #child1{
@@ -44,7 +69,7 @@
 }
 
 #s-btn{
-    height: 35px;
+    height: 30px;
     width:max-content ;
     padding-left: 10px;
     padding-right: 10px;
@@ -71,6 +96,9 @@
     text-shadow: 0 0 5px blue;
     padding: 15px;
     border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
 
 }
 
@@ -87,6 +115,10 @@
     text-shadow: 0 0 5px blue;
     padding: 15px;
     border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    
 
 }
 
@@ -94,16 +126,18 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
     row-gap: 10px;
     column-gap: 10px;
-    /* background-color: rgba(255, 255, 255, 0.141); */
+    background-color: rgba(255, 255, 255, 0.141);
     color: azure;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
     text-shadow: 0 0 5px blue;
     padding: 15px;
+    border-style: solid;
     border-radius: 10px;
+    width: 40%;
 
 
 }
@@ -113,12 +147,13 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    
     row-gap: 3px;
     column-gap: 3px;
     padding: 5px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.141);
-    border-style: solid;
+    border-style: dotted;
 
 }
