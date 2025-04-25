@@ -9,7 +9,7 @@ const App = () => {
     const [temp, setTemp] = useState(false)
 
     const getData = () => {
-        const url = "http://api.weatherapi.com/v1/forecast.json?key=7d416e44242a4c9fa0481246252204"
+        const url = "https://api.weatherapi.com/v1/forecast.json?key=7d416e44242a4c9fa0481246252204"
         fetch(`${url}&q=${city}&days=7`)
             .then(Response => Response.json())
             .then(Data => {
