@@ -7,6 +7,8 @@ const App = () => {
     const [city, setCity] = useState('')
     const [data, setData] = useState([])
     const [temp, setTemp] = useState(false)
+    const [day,setDay]    = useState()
+    const [theme,setTheme] =    useState("main")
 
     const getData = () => {
         const url = "https://api.weatherapi.com/v1/forecast.json?key=7d416e44242a4c9fa0481246252204"
@@ -17,14 +19,22 @@ const App = () => {
                 setData(Data)
                 setTemp(true)
                 setCity('')
+                setDay(Data.current.is_day)
 
+                if (Data.current.is_day === 1) {
+                    setTheme('day');
+                } else {
+                    setTheme('night');
+                }
             })
+
     }
+
 
     return (
         <>
 
-            <div id="main">
+            <div id={theme}>
                 <h1 id="hed">The Weather Knows the Mood of Your City</h1>
                 <div id="child1">
                     <input id="ibox" type="text"
@@ -43,6 +53,7 @@ const App = () => {
                         <h2>{data.location.name} | </h2>
                         <h3>{data.location.region}  </h3>
                         <h4>{data.location.country}</h4>
+                        
                     </div>
                     <div className="child3">
                         <h3>Sunrise: {data.forecast.forecastday[0].astro.sunrise} |</h3>
@@ -68,10 +79,11 @@ const App = () => {
                                 const label = timeLabels[time] || "Time";
                                 return (
                                     <div key={index} id="hour">
-                                        <h5>{label}</h5>
                                         <img src={item.condition.icon} width={30} />
                                         <h5>{item.temp_c}°C</h5>
-                                        <h5>{time}</h5>
+                                        <h5>{label}</h5>
+                                        
+                                        {/* <h5>{time}</h5> */}
                                     </div>
                                 );
                             })
@@ -86,6 +98,7 @@ const App = () => {
                                 <h5>{item.date}</h5>
                             </div>
                         ))}
+                        
                     </div>
 
                     {/* <img src={data.forecast.forecastday[0].day.condition.icon} />
