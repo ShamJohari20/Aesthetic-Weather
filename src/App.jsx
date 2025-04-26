@@ -45,8 +45,8 @@ return (
         <div id={theme}>
             {hed && <div id="hed">
                 <h1>Aesthetic Weather App</h1>
-                <h2>"The weather knows the emotions of the city,
-                    When to cry like rain, and when to smile like sunshine."</h2>
+                <h2>The weather knows the emotions of the city
+                    When to cry like rain and when to smile like sunshine...</h2>
 
             </div>}
             <div id="child1">

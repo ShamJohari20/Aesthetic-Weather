@@ -54,11 +54,11 @@
     text-align: center;
     color: azure;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
-    text-shadow: 0 0 5px blue;
+    text-shadow: 0 0 5px rgb(255, 0, 212);
     background-color: rgba(255, 255, 255, 0.141);
     padding: 10px;
-    /* border-style: solid;
-    border-color: white; */
+    border-style: solid;
+    border-color: white;
     border-radius: 10px;
 }
 
@@ -113,7 +113,7 @@
     text-shadow: 0 0 5px blue;
     padding: 15px;
     border-radius: 10px;
-    /* border-style: solid; */
+    border-style: solid;
     border-color: white;
     border-radius: 10px;
 
@@ -132,7 +132,7 @@
     text-shadow: 0 0 5px blue;
     padding: 15px;
     border-radius: 10px;
-    /* border-style: solid; */
+    border-style: solid;
     border-color: white;
     border-radius: 10px;
     
@@ -200,6 +200,6 @@
     padding: 5px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.141);
-    border-style: solid;
+    border-style: dashed;
 
 }
